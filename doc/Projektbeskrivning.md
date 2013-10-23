@@ -37,5 +37,7 @@ Projektmedlemmar:
 *Nej.*
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+*Länka till tidsplaneringen här, eller fäll in som en bild.* 
+(https://github.com/aj222ah/VesterlundsBageri/tree/gh-pages/doc/Projektplanering Webbteknisk introduktion.pdf)
+*alt.* (https://c9.io/aj222ah/vesterlunds/workspace/doc/Projektplanering Webbteknisk introduktion.pdf)
 
