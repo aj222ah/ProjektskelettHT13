@@ -14,9 +14,8 @@ göras via webbsidan). Man hoppas även kunna locka kunder som kanske ska ut på
 ett ställe att fika på via nätet. 
 
 Innehållet på webbplatsen kommer att bestå av en nyhets- eller bloggsida, där någon ur personalen regelbundet upplyser 
-om vad som händer i bageriet och konditoriet, en presentationssida över företaget och dess anställda, två presentationssidor 
-över produkter samt två sidor med beställningsformulär samt eventuellt en hitta-till-oss-sida eftersom tanken är att nå 
-kunder som eventuellt är ute och reser och stannar till på vägen till något annat mål. 
+om vad som händer i bageriet och konditoriet, en presentationssida över företaget (med hitta-till-oss) och dess anställda, 
+två presentationssidor över produkter samt två sidor med beställningsformulär. 
 
 ## Tekniker
 Jag kommer att använda HTML5 och CSS3. I projektet ingår att kolla upp ramverk och om de kan tillföra något till sidan. 
