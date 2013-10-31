@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8" />
 	    <title>Vesterlunds - Stororder</title>
+	    <link rel="shortcut icon" href="../photos/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../photos/appleIcon.png" />
+	    <script type="text/javascript" src="elements.js"></script>
     </head>
     <body>
         <header>
@@ -17,7 +20,7 @@
                 <li><a href="assortmentPastry.html">Kaffebröd</a></li>
                 <li><a href="assortmentBread.html">Matbröd</a></li>
                 <li><a href="orderCustomCake.html">Beställning specialtårtor</a></li>
-                <li><a href="orderBulk.html">Beställning stororder</a></li>
+                <li><a href="orderBulk.html" id="active">Beställning stororder</a></li>
                 <li><a href="aboutUs.html">Om oss</a></li>
             </ul>
         </nav>
@@ -53,13 +56,191 @@
                         <tr><td colspan="2">Vesterlunds Bageri & Konditori</td></tr>
                         <tr><td>Adress:</td><td>Tomtevägen 17</td></tr>
                         <tr><td>Postnummer:</td><td>123 45 Lilla Staden</td></tr>
+                        <tr><td>Telefon:</td><td>0987 - 65 43 21</td></tr>
                     </tbody>
                 </table>
             </section>
         </aside>
         
         <main>
+            <h2>Stororder fikabröd</h2>
+            <p>
+                Vi har fått frågan om vi har möjlighet att leverera större kvantiteter kakor 
+                från företag och privatpersoner. Nedan kan ni beställa större mängder av vårt 
+                standard-utbud av kakor. Om ni vill ha någon kaksort som inte finns med nedan 
+                är ni välkomna att kontakta oss per telefon så hittar vi en lösning. Fyll i 
+                formuläret nedan, och var noga med att uppge ett telefonnummer där vi kan nå dig. 
+                Inom ett dygn kommer vi att ringa upp dig med kostnadsuppgifter för din beställning 
+                samt för att verifiera din beställning. Observera att vi inte levererar ut till 
+                kund utan att ni får komma till oss och hämta er beställning. Betalning vid 
+                upphämtningstillfället, vi accepterar kort och kontanter.
+            </p>
             
+            <h3>Beställning fikabröd</h3>
+            <form method="post">
+                <fieldset>
+                    <legend>Beställning</legend>
+                    <label>Sort:
+                        <select name="cakeType1" size="1">
+                            <option value="choose">Välj...</option>
+                            <option value="arraksbollar">Arraksbollar</option>
+                            <option value="chokladsnitt">Chokladsnitt</option>
+                            <option value="hallongrottor">Hallongrottor</option>
+                            <option value="kanelbullar">Kanelbullar</option>
+                            <option value="kladdkakor">Kladdkakor (8 bitar/st)</option>
+                            <option value="kolakakor">Kolakakor</option>
+                            <option value="korintkakor">Korintkakor</option>
+                            <option value="kringlor">Kringlor</option>
+                            <option value="mockarutor">Mockarutor/Kärleksmums</option>
+                            <option value="tigermuffins">Tigermuffins</option>
+                        </select>
+                    </label>
+                    <label>Antal:
+                        <select name="noOf1" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                        </select>
+                    </label><br />
+                    <label>Sort:
+                        <select name="cakeType2" size="1">
+                            <option value="choose">Välj...</option>
+                            <option value="arraksbollar">Arraksbollar</option>
+                            <option value="chokladsnitt">Chokladsnitt</option>
+                            <option value="hallongrottor">Hallongrottor</option>
+                            <option value="kanelbullar">Kanelbullar</option>
+                            <option value="kladdkakor">Kladdkakor (8 bitar/st)</option>
+                            <option value="kolakakor">Kolakakor</option>
+                            <option value="korintkakor">Korintkakor</option>
+                            <option value="kringlor">Kringlor</option>
+                            <option value="mockarutor">Mockarutor/Kärleksmums</option>
+                            <option value="tigermuffins">Tigermuffins</option>
+                        </select>
+                    </label>
+                    <label>Antal:
+                        <select name="noOf2" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                        </select>
+                    </label><br />
+                    <label>Sort:
+                        <select name="cakeType3" size="1">
+                            <option value="choose">Välj...</option>
+                            <option value="arraksbollar">Arraksbollar</option>
+                            <option value="chokladsnitt">Chokladsnitt</option>
+                            <option value="hallongrottor">Hallongrottor</option>
+                            <option value="kanelbullar">Kanelbullar</option>
+                            <option value="kladdkakor">Kladdkakor (8 bitar/st)</option>
+                            <option value="kolakakor">Kolakakor</option>
+                            <option value="korintkakor">Korintkakor</option>
+                            <option value="kringlor">Kringlor</option>
+                            <option value="mockarutor">Mockarutor/Kärleksmums</option>
+                            <option value="tigermuffins">Tigermuffins</option>
+                        </select>
+                    </label>
+                    <label>Antal:
+                        <select name="noOf3" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                        </select>
+                    </label><br />
+                    <label>Sort:
+                        <select name="cakeType4" size="1">
+                            <option value="choose">Välj...</option>
+                            <option value="arraksbollar">Arraksbollar</option>
+                            <option value="chokladsnitt">Chokladsnitt</option>
+                            <option value="hallongrottor">Hallongrottor</option>
+                            <option value="kanelbullar">Kanelbullar</option>
+                            <option value="kladdkakor">Kladdkakor (8 bitar/st)</option>
+                            <option value="kolakakor">Kolakakor</option>
+                            <option value="korintkakor">Korintkakor</option>
+                            <option value="kringlor">Kringlor</option>
+                            <option value="mockarutor">Mockarutor/Kärleksmums</option>
+                            <option value="tigermuffins">Tigermuffins</option>
+                        </select>
+                    </label>
+                    <label>Antal:
+                        <select name="noOf4" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                        </select>
+                    </label><br />
+                    <label>Sort:
+                        <select name="cakeType5" size="1">
+                            <option value="choose">Välj...</option>
+                            <option value="arraksbollar">Arraksbollar</option>
+                            <option value="chokladsnitt">Chokladsnitt</option>
+                            <option value="hallongrottor">Hallongrottor</option>
+                            <option value="kanelbullar">Kanelbullar</option>
+                            <option value="kladdkakor">Kladdkakor (8 bitar/st)</option>
+                            <option value="kolakakor">Kolakakor</option>
+                            <option value="korintkakor">Korintkakor</option>
+                            <option value="kringlor">Kringlor</option>
+                            <option value="mockarutor">Mockarutor/Kärleksmums</option>
+                            <option value="tigermuffins">Tigermuffins</option>
+                        </select>
+                    </label>
+                    <label>Antal:
+                        <select name="noOf5" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                        </select>
+                    </label><br />
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Dina kontaktuppgifter:</legend>
+                    <label>Namn: <input type="text" name="name" /></label><br />
+                    <label>E-post: <input type="email" name="e-mailaddress" /></label><br />
+                    <label>Telefonnummer (dagtid): <input type="tel" name="phonenumber" /></label><br />
+                    <label>Telefonnummer (kvällstid - om annat än dagtid): <input type="tel" name="phonenumber" /></label><br />
+                    <p class="warning">
+                        Observera att om ni lämnar ett inkorrekt telefonnummer eller om vi inte lyckas få 
+                        kontakt med er inom ett dygn kommer ordern att annulleras om ni ej kontaktar oss snarast.
+                    </p>
+                </fieldset>
+                <input type="submit" value="Skicka" />
+                <input type="reset" value="Rensa formulär" />
+            </form>
         </main>
         
         <footer>

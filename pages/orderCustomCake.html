@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8" />
 	    <title>Vesterlunds - Beställ specialtårtor</title>
+	    <link rel="shortcut icon" href="../photos/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../photos/appleIcon.png" />
+	    <script type="text/javascript" src="elements.js"></script>
     </head>
     <body>
         <header>
@@ -16,7 +19,7 @@
                 <li><a href="../start.html">Nyheter</a></li>
                 <li><a href="assortmentPastry.html">Kaffebröd</a></li>
                 <li><a href="assortmentBread.html">Matbröd</a></li>
-                <li><a href="orderCustomCake.html">Beställning specialtårtor</a></li>
+                <li><a href="orderCustomCake.html" id="active">Beställning specialtårtor</a></li>
                 <li><a href="orderBulk.html">Beställning stororder</a></li>
                 <li><a href="aboutUs.html">Om oss</a></li>
             </ul>
@@ -53,13 +56,95 @@
                         <tr><td colspan="2">Vesterlunds Bageri & Konditori</td></tr>
                         <tr><td>Adress:</td><td>Tomtevägen 17</td></tr>
                         <tr><td>Postnummer:</td><td>123 45 Lilla Staden</td></tr>
+                        <tr><td>Telefon:</td><td>0987 - 65 43 21</td></tr>
                     </tbody>
                 </table>
             </section>
         </aside>
         
         <main>
+            <h2>Specialtårtor</h2>
+            <section class="display">
+                <a href="../photos/EbbaCake.jpg" title="Rektangulär konfirmationstårta med blomdekoration">
+                    <img src="../photos/EbbaCake.jpg" alt="Närbild på en rektangulär tårta med vit sockerpasta, rosa och gröna blomdekorationer samt texten Ebba Konfirmation 27 maj 2012"></a>
+                <a href="../photos/studentCake.jpg" title="Tårta i form av en studentmössa">
+                    <img src="../photos/studentCake.jpg" alt="Närbild på en tårta i form av en svart och vit studentmössa med blå, gula och vita blomdekorationer på samt texten student 2013"></a>
+                <a href="../photos/flowerCake.jpg" title="Rund tårta med blomdekorationer">
+                    <img src="../photos/flowerCake.jpg" alt="Närbild på en rund tårta med vit sockerpasta samt rosa och svarta blomdekorationer"></a>
+                <a href="../photos/cakeFlowers.jpg" title="Rund konfirmationstårta med blomdekoration">
+                    <img src="../photos/cakeFlowers.jpg" alt="Närbild på en rund tårta med vit sockerpasta, rosa och gröna blomdekorationer samt texten Ebba Konfirmation 27 maj 2012"></a>
+                <a href="../photos/BarbieCake.jpg" title="Barbietårta">
+                    <img src="../photos/BarbieCake.jpg" alt="Tårta i form av en vit klänning med blå dekorationer komplett med den övre halvan av en Barbiedocka"></a>
+            </section>
+            <p>
+                Vår konditor Malin har som specialitet att göra tårtor med fantastiska 
+                dekorationer i sockerpasta eller mandelmassa. Du har nu möjlighet att beställa din unika 
+                tårta. Fyll i formuläret nedan, och var noga med att uppge ett telefonnummer 
+                där vi kan nå dig. Inom ett dygn kommer vi att ringa upp dig med 
+                kostnadsuppgifter för tårtan du angivit samt för att diskutera och verifiera 
+                din beställning. Notera att vi behöver din beställning minst tre dygn innan 
+                leveranstillfälle (minst 7 dygn om fler än fyra tårtor beställs) och att du måste vara 
+                beredd att komma till oss och hämta tårtan - vi gör inga hemleveranser av tårtor. 
+                Betalning vid avhämtning, vi tar kort och kontanter.
+            </p>
             
+            <h3>Beställning specialtårta</h3>
+            <form method="post">
+                <fieldset>
+                    <legend>Tårtbeskrivning</legend>
+                    <label>Beskrivning (hur vill ni att tårtan ska se ut?): <br />
+                        <textarea name="content" rows="4" cols="30"></textarea>
+                    </label><br />
+                    <label>Speciella önskemål (ev. allergier, färgval etc.): <br />
+                        <textarea name="content" rows="4" cols="30"></textarea>
+                    </label><br />
+                    <label>Antal tårtbitar/tårta (obs. att vi kanske inte kan tillmötesgå ert önskemål beroende på tårtformatet):<br />
+                        <select name="cakeSize" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="12">12</option>
+                            <option value="14">14</option>
+                            <option value="16">16</option>
+                            <option value="18">18</option>
+                            <option value="20">20</option>
+                            <option value="22">22</option>
+                            <option value="24">24</option>
+                        </select>
+                    </label><br />
+                    <label>Antal tårtor:
+                        <select name="noOfCakes" size="1">
+                            <option value="NaN">Välj...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </label><br />
+                    <label>Lägg till en bild: <input type="text" name="illustrationImage" /></label><input type="button" value="Bläddra" /><br />
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Dina kontaktuppgifter:</legend>
+                    <label>Namn: <input type="text" name="name" /></label><br />
+                    <label>E-post: <input type="email" name="e-mailaddress" /></label><br />
+                    <label>Telefonnummer (dagtid): <input type="tel" name="phonenumber" /></label><br />
+                    <label>Telefonnummer (kvällstid - om annat än dagtid): <input type="tel" name="phonenumber" /></label><br />
+                    <p class="warning">
+                        Observera att om ni lämnar ett inkorrekt telefonnummer eller om vi inte lyckas få 
+                        kontakt med er inom ett dygn kommer ordern att annulleras om ni ej kontaktar oss snarast.
+                    </p>
+                </fieldset>
+                <input type="submit" value="Skicka" />
+                <input type="reset" value="Rensa formulär" />
+            </form>
         </main>
         
         <footer>
