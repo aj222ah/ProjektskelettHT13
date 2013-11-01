@@ -50,14 +50,16 @@ table {
 }
 
 @font-face {
-    font-family: mathilde;
-    src: url('fonts/mathilde.otf');
+    font-family: Calligraffitti-Regular;
+    src: url('fonts/Calligraffitti-Regular.ttf');
 }
 
 body {
+    font-family: Georgia, Verdana, serfi;
     font-size: 12pt;
 }
 
 header h1, h3, h6 {
-    
+    font-family: Calligraffitti-Regular;
+    font-weight: bold;
 }
