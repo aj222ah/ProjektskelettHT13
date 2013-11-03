@@ -67,12 +67,10 @@ nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    border: 1px solid rgb(0, 187, 0);
-    margin-right: 2px;
+    margin-right: 1px;
 }
 
-nav a #active {
-    border-top: 1px solid rgb(128, 255, 128);
+active {
     background-color: rgb(128, 255, 128);
 }
 
@@ -120,10 +118,5 @@ table * {
 thead, tfoot {
     text-align: center;
     font-weight: bold;
-    padding: 5px;
-}
-
-td {
-    padding: 3px;
 }
 

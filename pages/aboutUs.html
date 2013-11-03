@@ -7,9 +7,9 @@
 	    <script type="text/javascript" src="../elements.js"></script>
 	    <script type="text/javascript" src="../elements.js"></script>
         <link rel="stylesheet" href="../css/common.css" />
-		<link rel="stylesheet" media="only screen and (min-device-width:1025px), only screen and (min-width:1025px)" href="../css/browser.css" />
+		<!--<link rel="stylesheet" media="only screen and (min-device-width:1025px), only screen and (min-width:1025px)" href="../css/browser.css" />
 		<link rel="stylesheet" media="only screen and (min-device-width:481px) and (max-device-width:1024px), only screen and (min-width: 481px) and (max-width:1024px)" href="../css/tablet.css" />
-		<link rel="stylesheet" media="only screen and (max-device-width:480px), only screen and (max-width: 480px)" href="../css/smartphone.css" />
+	-->	<link rel="stylesheet" media="only screen and (max-device-width:480px), only screen and (max-width: 480px)" href="../css/smartphone.css" />
 		<link rel="stylesheet" media="print" href="../css/print.css" />
 	    <link rel="shortcut icon" href="../pics/icons/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="../pics/icons/appleIcon.png" />
@@ -21,50 +21,45 @@
         
         <nav>
             <ul>
-                <li><a href="../start.html">Nyheter</a></li>
-                <li><a href="assortmentPastry.html">Kaffebröd</a></li>
-                <li><a href="assortmentBread.html">Matbröd</a></li>
-                <li><a href="orderCustomCake.html">Beställning specialtårtor</a></li>
-                <li><a href="orderBulk.html">Beställning stororder</a></li>
-                <li><a href="aboutUs.html" id="active">Om oss</a></li>
+                <li><a href="../start.html" id="news">Nyheter</a></li>
+                <li><a href="assortmentPastry.html" id="pastry">Kaffebröd</a></li>
+                <li><a href="assortmentBread.html" id="bread">Matbröd</a></li>
+                <li><a href="orderCustomCake.html" id="cake">Specialtårtor</a></li>
+                <li><a href="orderBulk.html" id="bulk">Storköp</a></li>
+                <li><a href="aboutUs.html" class="active" id="about">Om oss</a></li>
             </ul>
         </nav>
-        <aside>
-            <section>
-                <table id="openingHours">
-                    <thead>
-                        <tr><th colspan="2">Öppettider:</th></tr>
-                    </thead>
-                    <tfoot>
-                        <tr><td colspan="2">Öppettider kan ändras vid helgdagar och under semestertider</td></tr>
-                    </tfoot>
-                    <tbody>
-                        <tr><td>Måndag</td><td>9.00 - 17.00</td></tr>
-                        <tr><td>Tisdag</td><td>7.30 - 17.00</td></tr>
-                        <tr><td>Onsdag</td><td>7.30 - 17.00</td></tr>
-                        <tr><td>Torsdag</td><td>7.30 - 17.00</td></tr>
-                        <tr><td>Fredag</td><td>7.30 - 18.00</td></tr>
-                        <tr><td>Lördag</td><td>7.30 - 15.00</td></tr>
-                        <tr><td>Söndag</td><td>Stängt</td></tr>
-                    </tbody>
-                </table>
-            </section>
-            <section>
-                <table id="address">
-                    <thead>
-                        <tr><th colspan="2">Fikasugen? Här finns vi:</th></tr>
-                    </thead>
-                    <tfoot>
-                        <tr><td colspan="2">Välkommen!</td></tr>
-                    </tfoot>
-                    <tbody>
-                        <tr><td colspan="2">Vesterlunds Bageri & Konditori</td></tr>
-                        <tr><td>Adress:</td><td>Tomtevägen 17</td></tr>
-                        <tr><td>Postnummer:</td><td>123 45 Lilla Staden</td></tr>
-                        <tr><td>Telefon:</td><td>0987 - 65 43 21</td></tr>
-                    </tbody>
-                </table>
-            </section>
+        <aside id="find">
+            <table id="address">
+                <thead>
+                    <tr><th colspan="2">Fikasugen? Här finns vi:</th></tr>
+                </thead>
+                <tfoot>
+                    <tr><td colspan="2">Välkommen!</td></tr>
+                </tfoot>
+                <tbody>
+                    <tr><td colspan="2">Vesterlunds Bageri & Konditori</td></tr>
+                    <tr><td>Adress:</td><td>Tomtevägen 17</td></tr>
+                    <tr><td>Postnr:</td><td>123 45 Lilla Staden</td></tr>
+                    <tr><td>Telefon:</td><td>0987 - 65 43 21</td></tr>
+                </tbody>
+            </table>
+        </aside>
+        <aside id="open">
+            <table id="openingHours">
+                <thead>
+                    <tr><th colspan="2">Öppettider:</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Måndag</td><td>9.00 - 17.00</td></tr>
+                    <tr><td>Tisdag</td><td>7.30 - 17.00</td></tr>
+                    <tr><td>Onsdag</td><td>7.30 - 17.00</td></tr>
+                    <tr><td>Torsdag</td><td>7.30 - 17.00</td></tr>
+                    <tr><td>Fredag</td><td>7.30 - 18.00</td></tr>
+                    <tr><td>Lördag</td><td>7.30 - 15.00</td></tr>
+                    <tr><td>Söndag</td><td>Stängt</td></tr>
+                </tbody>
+            </table>
         </aside>
         
         <main>

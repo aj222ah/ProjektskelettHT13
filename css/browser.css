@@ -1,20 +1,29 @@
 body {
     width: 80%;
+    min-width: 845px;
     margin: 0 auto;
-    background-color: rgb(224, 224, 224);
+    border-left: 1px solid rgb(91, 0, 183);
+    border-right: 1px solid rgb(91, 0, 183);
 }
 
 main, nav, aside {
     background-color: white;
 }
+/*
+nav {
+    border-left: 1px solid rgb(91, 0, 183);
+    border-right: 1px solid rgb(91, 0, 183);
+}
 
 aside {
     float: left;
+    border-left: 1px solid rgb(91, 0, 183);
 }
 
 main {
     float: left;
-}
+    border-right: 1px solid rgb(91, 0, 183);
+}*/
 
 img {
     max-width: 75%;

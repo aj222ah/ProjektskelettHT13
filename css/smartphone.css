@@ -1,29 +1,60 @@
+/* Allmän sidolayout */
 body {
+    width: 100%;
     font-size: 0.8em;
 }
 
+
+main {
+    float: left;
+    clear: none;
+    text-align: center;
+}
+
+/* Layout header & navigation */
 #sign {
     max-width: 100%;
     height: auto;
     padding: 0;
 }
 
-img {
-    max-width: 75%;
-    height: auto;
-    padding: 10px;
+#news {
+    margin-left: 7.5px;
 }
 
-aside {
-    clear: both;
-    margin: 0 auto;
+#bulk {
+    margin-left: 90px;
 }
 
+/* Tabell-layout */
 table {
-    width: 65%;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
+th, td {
+    padding: 3px;
+}
+
+th {
+    font-size: 1.1em;
+}
+
+#find, #open {
+    float: left;
+    clear: none;
+    margin-left: 1.5px;
+}
+
+#openingHours {
+    width: 140px;
+}
+
+#address {
+    width: 190px;
+}
+
+/* Rubriker */
 h1, h2, h3, p, table {
     padding: 10px;
 }
@@ -38,6 +69,14 @@ h2 {
 
 h3 {
     font-size: 1.2em;
+}
+
+/* Bild-layout */
+img {
+    max-width: 225px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .right, .left {
