@@ -31,6 +31,9 @@ Eftersom jag visserligen verkligen gillar att baka, men inte är någon mästerb
 av bilder tagna av mig, bilder min kusin tagit och gett mig tillåtelse att använda samt bilder som användare tillåts använda
 fritt från stock.xchng: http://www.sxc.hu/. Detta kommer naturligtvis att ge ett något oproffsigt utseende åt produktbilderna.
 
+På sidan för neställning av specialtårtor har jag en bläddra-knapp som borde ha en funktion, men eftersom tekniken för det inte
+ingår i teknikerna på den här kursen är den där för att symbolisera en tänkt funktion
+
 ## Förstudier
 Nej.
 

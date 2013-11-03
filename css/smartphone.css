@@ -9,6 +9,7 @@ main {
     float: left;
     clear: none;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 /* Layout header & navigation */
@@ -24,6 +25,10 @@ main {
 
 #bulk {
     margin-left: 90px;
+}
+
+#news, #bulk {
+    border-left: 1px solid rgb(91, 0, 183);
 }
 
 /* Tabell-layout */
@@ -71,6 +76,11 @@ h3 {
     font-size: 1.2em;
 }
 
+footer p {
+    font-style: italic;
+    border-bottom: 1px dotted rgb(219, 183, 255);
+}
+
 /* Bild-layout */
 img {
     max-width: 225px;
@@ -81,4 +91,21 @@ img {
 
 .right, .left {
     display: block;
+}
+
+/* Utseende - formulär */
+form {
+    max-width: 95%;
+    padding: 5px;
+    margin-left: 2px;
+    text-align: left;
+}
+
+label, textarea { 
+    padding-left: 5px;
+}
+
+#buttons {
+    margin-top: 7px;
+    text-align: center;
 }

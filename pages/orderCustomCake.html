@@ -24,7 +24,7 @@
                 <li><a href="../start.html" id="news">Nyheter</a></li>
                 <li><a href="assortmentPastry.html" id="pastry">Kaffebröd</a></li>
                 <li><a href="assortmentBread.html" id="bread">Matbröd</a></li>
-                <li><a href="orderCustomCake.html" class="active" id="cake">Specialtårtor</a></li>
+                <li class="active"><a href="orderCustomCake.html" id="cake">Specialtårtor</a></li>
                 <li><a href="orderBulk.html" id="bulk">Storköp</a></li>
                 <li><a href="aboutUs.html" id="about">Om oss</a></li>
             </ul>
@@ -51,13 +51,13 @@
                     <tr><th colspan="2">Öppettider:</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td>Måndag</td><td>9.00 - 17.00</td></tr>
-                    <tr><td>Tisdag</td><td>7.30 - 17.00</td></tr>
-                    <tr><td>Onsdag</td><td>7.30 - 17.00</td></tr>
-                    <tr><td>Torsdag</td><td>7.30 - 17.00</td></tr>
-                    <tr><td>Fredag</td><td>7.30 - 18.00</td></tr>
-                    <tr><td>Lördag</td><td>7.30 - 15.00</td></tr>
-                    <tr><td>Söndag</td><td>Stängt</td></tr>
+                    <tr><td>Måndag:</td><td>9.00 - 17.00</td></tr>
+                    <tr><td>Tisdag:</td><td>7.30 - 17.00</td></tr>
+                    <tr><td>Onsdag:</td><td>7.30 - 17.00</td></tr>
+                    <tr><td>Torsdag:</td><td>7.30 - 17.00</td></tr>
+                    <tr><td>Fredag:</td><td>7.30 - 18.00</td></tr>
+                    <tr><td>Lördag:</td><td>7.30 - 15.00</td></tr>
+                    <tr><td>Söndag:</td><td>Stängt</td></tr>
                 </tbody>
             </table>
         </aside>
@@ -98,7 +98,7 @@
                     <label>Speciella önskemål (ev. allergier, färgval etc.): <br />
                         <textarea name="content" rows="4" cols="30"></textarea>
                     </label><br />
-                    <label>Antal tårtbitar/tårta (obs. att vi kanske inte kan tillmötesgå ert önskemål beroende på tårtformatet):<br />
+                    <label>Önskat antal tårtbitar/tårta:<br />
                         <select name="cakeSize" size="1">
                             <option value="NaN">Välj...</option>
                             <option value="6">6</option>
@@ -142,8 +142,10 @@
                         kontakt med er inom ett dygn kommer ordern att annulleras om ni ej kontaktar oss snarast.
                     </p>
                 </fieldset>
-                <input type="submit" value="Skicka" />
-                <input type="reset" value="Rensa formulär" />
+                <div id="buttons">
+                    <input type="submit" value="Skicka" />
+                    <input type="reset" value="Rensa formulär" />
+                </div>
             </form>
         </main>
         
