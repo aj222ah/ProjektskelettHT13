@@ -55,6 +55,10 @@ body {
     font-size: 12pt;
 }
 
+#sign {
+    padding: 0;
+}
+
 nav {
     width: 100%;
 }
