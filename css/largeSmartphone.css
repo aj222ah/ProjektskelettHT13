@@ -9,10 +9,6 @@ body {
     height: auto;
 }
 
-nav {
-    display: block;
-}
-
 nav a {
     padding: 9px;
 }

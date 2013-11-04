@@ -63,6 +63,8 @@ nav {
     margin:0;
     padding:0;
     text-align: center;
+    height: auto;
+    background-color: rgb(235, 215, 255);
 }
 
 nav li {
@@ -136,7 +138,7 @@ p {
     padding: 20px;
 }
 
-.sign p {
+.signature p {
     font-style: italic;
     border-bottom: 1px dotted rgb(219, 183, 255);
 }
