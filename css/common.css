@@ -151,11 +151,15 @@ thead, tfoot {
 
 /* Formulär-layout */
 form {
-    border: 1px solid rgb(91, 0, 183)
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    border: 1px solid rgb(91, 0, 183);
 }
 
 fieldset {
-    border: 1px solid rgb(219, 183, 255)
+    padding: 3px;
+    border: 1px solid rgb(219, 183, 255);
 }
 
 legend {
@@ -166,4 +170,8 @@ legend {
 
 select, textarea, input[type="text"], input[type="email"], input[type="tel"] {
     margin: 3px;
+}
+
+label, textarea, .warning { 
+    padding-left: 5px;
 }

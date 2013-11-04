@@ -1,19 +1,20 @@
+/* Allmän sidolayout */
 body {
     width: 100%;
-    min-width: 481px;
-    max-width: 1024px;
     font-size: 0.9em;
 }
 
 #sign {
-    width: 100%;
-    min-width: 480px;
-    max-width: 600px;
+    max-width: 100%;
     height: auto;
 }
 
 nav {
     display: block;
+}
+
+nav a {
+    padding: 9px;
 }
 
 aside {
@@ -40,21 +41,38 @@ aside {
 
 main {
     width: 95%;
-    float: right;
 }
 
+/* Text-styling */
 p, h1, h2, h3 {
     padding: 10px;
     padding-right: 20px;
+    clear: both;
 }
 
-
+/* Layout bilder */
 img {
     max-width: 250px;
     height: auto;
     padding-bottom: 10px;
 }
 
+.cakeImage {
+    max-width: 225px;
+    height: auto;
+    padding: 10px;
+}
+
+.display {
+    text-align: center;
+}
+
 .right, .left {
     display: block;
+}
+
+/* Formulär-utseende */
+#buttons {
+    margin-top: 7px;
+    text-align: center;
 }

@@ -11,6 +11,24 @@ main {
     margin-bottom: 5px;
 }
 
+nav a {
+    padding: 8px;
+}
+
+#find, #open {
+    float: left;
+    clear: none;
+}
+
+#openingHours {
+    width: 133px;
+    margin-left: 1px;
+}
+
+#address {
+    width: 186px;
+}
+
 /* Layout header & navigation */
 #sign {
     max-width: 100%;
@@ -31,23 +49,10 @@ th {
     font-size: 1.1em;
 }
 
-#find, #open {
-    float: left;
-    clear: none;
-}
-
-#openingHours {
-    width: 133px;
-    margin-left: 1px;
-}
-
-#address {
-    width: 186px;
-}
-
 /* Rubriker */
 h1, h2, h3, p, table {
     padding: 10px;
+    clear: both;
 }
 
 h1 {
@@ -81,10 +86,6 @@ form {
     padding: 5px;
     margin-left: 2px;
     text-align: left;
-}
-
-label, textarea { 
-    padding-left: 5px;
 }
 
 #buttons {

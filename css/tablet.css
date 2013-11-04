@@ -1,15 +1,11 @@
+/* Allmän sidolayout */
 body {
     width: 100%;
-    /*min-width: 481px;*/
-    min-width: 601px;
-    max-width: 1024px;
     font-size: 0.9em;
 }
 
 #sign {
-    width: 100%;
-    min-width: 601px;
-    max-width: 845px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -34,22 +30,32 @@ aside {
 }
 
 main {
-    width: 58%;
-    
+    width: 57%;
 }
 
+/* Text-styling */
 p, h1, h2, h3 {
     padding: 10px;
     padding-right: 20px;
 }
 
-
+/* Layout bilder */
 img {
     max-width: 280px;
     height: auto;
     padding-bottom: 10px;
 }
 
+.display {
+    text-align: center;
+}
+
 .right, .left {
     display: block;
+}
+
+/* Formulär-utseende */
+#buttons {
+    margin-top: 7px;
+    text-align: center;
 }
