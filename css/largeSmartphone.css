@@ -1,41 +1,46 @@
 body {
     width: 100%;
-    /*min-width: 481px;*/
-    min-width: 601px;
+    min-width: 481px;
     max-width: 1024px;
     font-size: 0.9em;
 }
 
 #sign {
     width: 100%;
-    min-width: 601px;
-    max-width: 845px;
+    min-width: 480px;
+    max-width: 600px;
     height: auto;
 }
 
 nav {
     display: block;
-    margin-left: 10%;
-}
-
-
-aside, main {
-    margin: 20px 10px 20px 10px;
-    float: left;
 }
 
 aside {
-    width: 210px;
+    width: 95%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#find, #open {
+    float: left;
+    clear: none;
 }
 
 #openingHours {
-    margin: 15px;
-    margin-left: 28px;
+    width: 175px;
+    margin-left: 10px;
+}
+
+#address {
+    width: 220px;
 }
 
 main {
-    width: 58%;
-    
+    width: 95%;
+    float: right;
 }
 
 p, h1, h2, h3 {
@@ -45,7 +50,7 @@ p, h1, h2, h3 {
 
 
 img {
-    max-width: 280px;
+    max-width: 250px;
     height: auto;
     padding-bottom: 10px;
 }

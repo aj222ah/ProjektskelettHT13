@@ -4,7 +4,6 @@ body {
     font-size: 0.8em;
 }
 
-
 main {
     float: left;
     clear: none;
@@ -16,18 +15,6 @@ main {
 #sign {
     max-width: 100%;
     height: auto;
-}
-
-#news {
-    margin-left: 5px;
-}
-
-#bulk {
-    margin-left: 95px;
-}
-
-#news, #bulk {
-    border-left: 1px solid rgb(91, 0, 183);
 }
 
 /* Tabell-layout */
@@ -75,10 +62,6 @@ h3 {
     font-size: 1.2em;
 }
 
-footer p {
-    font-style: italic;
-    border-bottom: 1px dotted rgb(219, 183, 255);
-}
 
 /* Bild-layout */
 img {
