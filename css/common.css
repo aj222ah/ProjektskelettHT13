@@ -60,19 +60,27 @@ body {
 }
 
 nav {
-    width: 100%;
+    margin:0;
+    padding:0;
+    text-align: center;
 }
 
 nav li {
-    float: left;
+    display: inline;
+    margin-left: -4px;
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     padding: 10px;
     text-decoration: none;
-    border-right: 1px solid rgb(91, 0, 183);
-    border-bottom: 1px solid rgb(91, 0, 183);
+    background-color: rgb(235, 215, 255);
+    -moz-border-radius: 0 0 10px 10px; 
+    -webkit-border-radius: 0 0 10px 10px; 
+    -ie-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px; 
+    border: 2px solid rgb(91, 0, 183);
 }
 
 nav a:link, nav a:visited {
@@ -154,7 +162,7 @@ form {
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 3px;
-    border: 1px solid rgb(91, 0, 183);
+    border: 2px solid rgb(91, 0, 183);
 }
 
 fieldset {
