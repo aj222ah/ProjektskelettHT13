@@ -121,6 +121,10 @@ footer {
 }
 
 /* Stylning text-element */
+p, h1, h2, h3 {
+    padding: 10px;
+}
+
 h1, h2, h3, p, table {
     clear: both;
 }
@@ -141,10 +145,6 @@ h3 {
     font-size: 1.5em;
 }
 
-p {
-    padding: 20px;
-}
-
 #presentation article {
     text-align: center;
 }
@@ -157,6 +157,17 @@ p {
 .page p {
     padding: 7px;
     color: white;
+}
+
+.newsblog h2 {
+    padding-bottom: 0;
+}
+
+.newsblog h2::before {
+    content: url(pics/cupcake.png);
+    padding-right: 0.5em;
+    border: none;
+    vertical-align: -7.5px;
 }
 
 /* Bild-layout */
@@ -200,7 +211,6 @@ img {
     border-radius: 8px 8px 8px 8px; 
     border: 3px solid black;
 }
-
 
 .display {
     text-align: center;
