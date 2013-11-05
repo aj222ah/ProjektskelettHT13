@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }
 
+/* För att inte upprepa kod ligger de gemensamma delarna av layouten i denna stilmall */
 /* Stylning sid-element */
 body {
     font-family: Georgia, Verdana, serif;
@@ -56,6 +57,8 @@ body {
 }
 
 #sign {
+    max-width: 100%;
+    height: auto;
     padding: 0;
 }
 
@@ -118,6 +121,10 @@ footer {
 }
 
 /* Stylning text-element */
+h1, h2, h3, p, table {
+    clear: both;
+}
+
 h1, h2, h3 {
     font-weight: bold;
 }
@@ -138,6 +145,10 @@ p {
     padding: 20px;
 }
 
+#presentation article {
+    text-align: center;
+}
+
 .signature p {
     font-style: italic;
     border-bottom: 1px dotted rgb(219, 183, 255);
@@ -146,6 +157,53 @@ p {
 .page p {
     padding: 7px;
     color: white;
+}
+
+/* Bild-layout */
+img {
+    max-width: 250px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#presentation article img {
+    display: block;
+    padding: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    -moz-border-radius: 5px 5px 5px 5px; 
+    -webkit-border-radius: 5px 5px 5px 5px; 
+    -ie-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px; 
+    border: 2px solid black;
+}
+
+.cakeImage {
+    display: block;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -moz-box-shadow: 3px 3px 3px rgb(45, 45, 45);
+    -webkit-box-shadow: 3px 3px 3px rgb(45, 45, 45);
+    -ms-box-shadow: 3px 3px 3px rgb(45, 45, 45);
+    -o-box-shadow: 3px 3px 3px rgb(45, 45, 45);
+    box-shadow: 3px 3px 3px rgb(45, 45, 45);
+    -moz-border-radius: 8px 8px 8px 8px; 
+    -webkit-border-radius: 8px 8px 8px 8px; 
+    -ie-border-radius: 8px 8px 8px 8px;
+    -o-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px; 
+    border: 3px solid black;
+}
+
+
+.display {
+    text-align: center;
 }
 
 /* Tabell-layout */
@@ -185,3 +243,27 @@ select, textarea, input[type="text"], input[type="email"], input[type="tel"] {
 label, textarea, .warning { 
     padding-left: 5px;
 }
+
+#buttons {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.button {
+    font-family: Georgia, Verdana, serif;
+    height: 27px;
+    border: 1px solid gray;
+    background-color: silver;
+    font-weight: bold;
+    -moz-box-shadow: 1px 1px 1px rgb(45, 45, 45);
+    -webkit-box-shadow: 1px 1px 1px rgb(45, 45, 45);
+    -ie-box-shadow: 1px 1px 1px rgb(45, 45, 45);
+    -o-box-shadow: 1px 1px 1px rgb(45, 45, 45);
+    box-shadow: 1px 1px 1px rgb(45, 45, 45);
+    -moz-border-radius: 5px 5px 5px 5px; 
+    -webkit-border-radius: 5px 5px 5px 5px; 
+    -ie-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px; 
+}
+

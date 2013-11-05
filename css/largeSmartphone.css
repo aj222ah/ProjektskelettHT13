@@ -2,11 +2,7 @@
 body {
     width: 100%;
     font-size: 0.9em;
-}
-
-#sign {
-    max-width: 100%;
-    height: auto;
+    border: none;
 }
 
 nav a {
@@ -14,11 +10,12 @@ nav a {
 }
 
 aside {
-    width: 95%;
-    float: left;
+    width: 410px;
+    float: none;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: auto;
     margin-bottom: 20px;
+    margin-right: auto;
 }
 
 #find, #open {
@@ -27,48 +24,30 @@ aside {
 }
 
 #openingHours {
-    width: 175px;
+    width: 165px;
     margin-left: 10px;
+    margin-top: 0;
 }
 
 #address {
-    width: 220px;
+    width: 20px;
 }
 
 main {
-    width: 95%;
+    width: 98%;
+    float: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-right: auto;
 }
 
 /* Text-styling */
 p, h1, h2, h3 {
     padding: 10px;
-    padding-right: 20px;
-    clear: both;
 }
 
 /* Layout bilder */
-img {
-    max-width: 250px;
-    height: auto;
-    padding-bottom: 10px;
-}
-
 .cakeImage {
     max-width: 225px;
-    height: auto;
-    padding: 10px;
-}
-
-.display {
-    text-align: center;
-}
-
-.right, .left {
-    display: block;
-}
-
-/* Formulär-utseende */
-#buttons {
-    margin-top: 7px;
-    text-align: center;
 }

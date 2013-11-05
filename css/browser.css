@@ -1,31 +1,38 @@
+/* Allmän sidolayout */
 body {
-    width: 80%;
-    min-width: 845px;
+    width: 90%;
     margin: 0 auto;
     border-left: 1px solid rgb(91, 0, 183);
     border-right: 1px solid rgb(91, 0, 183);
 }
 
-main, nav, aside {
-    background-color: white;
-}
-/*
-nav {
-    border-left: 1px solid rgb(91, 0, 183);
-    border-right: 1px solid rgb(91, 0, 183);
+
+aside, main {
+    margin: 20px 10px 20px 10px;
+    float: left;
 }
 
 aside {
-    float: left;
-    border-left: 1px solid rgb(91, 0, 183);
+    width: 240px;
+}
+
+#openingHours {
+    margin: 15px;
+    margin-left: 28px;
 }
 
 main {
-    float: left;
-    border-right: 1px solid rgb(91, 0, 183);
-}*/
+    width: 69%;
+}
 
-img {
-    max-width: 75%;
-    height: auto;
+/* Text-styling */
+p, h1, h2, h3 {
+    padding: 20px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+/* Formulär-layout */
+.button:hover {
+    background-color: gray;
 }
