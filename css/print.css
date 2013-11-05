@@ -31,7 +31,7 @@ aside {
     width: 220px;
 }
 
-#presentation, #cakeGallery  {
+#presentation .left, #presentation .right, #cakeGallery  {
     display: none;
 }
 

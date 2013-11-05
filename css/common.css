@@ -161,6 +161,7 @@ h3 {
 
 .newsblog h2 {
     padding-bottom: 0;
+    padding-top: 10px;
 }
 
 .newsblog h2::before {
@@ -168,6 +169,10 @@ h3 {
     padding-right: 0.5em;
     border: none;
     vertical-align: -7.5px;
+}
+
+.newsblog:nth-of-type(1) {
+    border-top: 1px dotted rgb(219, 183, 255);
 }
 
 /* Bild-layout */
@@ -214,6 +219,13 @@ img {
 
 .display {
     text-align: center;
+}
+
+#sample {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
 }
 
 /* Tabell-layout */
@@ -276,4 +288,3 @@ label, textarea, .warning {
     -o-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px; 
 }
-
