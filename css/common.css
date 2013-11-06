@@ -272,6 +272,10 @@ label, textarea, .warning {
     text-align: center;
 }
 
+#buttons label {
+    display: none;
+}
+
 .button {
     font-family: Georgia, Verdana, serif;
     height: 27px;

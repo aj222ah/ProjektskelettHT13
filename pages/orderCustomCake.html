@@ -5,7 +5,6 @@
         <meta name="viewport" content="width:device-width, initial-scale=1.0" />
         <title>Vesterlunds - Beställ specialtårtor</title>
         <script type="text/javascript" src="../elements.js"></script>
-        <script type="text/javascript" src="../elements.js"></script>
         <link rel="stylesheet" href="../css/common.css" />
         <link rel="stylesheet" media="only screen and (min-device-width:1025px), only screen and (min-width:1025px)" href="../css/browser.css" />
 		<link rel="stylesheet" media="only screen and (min-device-width:601px) and (max-device-width:1024px), only screen and (min-width: 601px) and (max-width:1024px)" href="../css/tablet.css" />
@@ -80,57 +79,55 @@
             </p>
             <section class="display" id="cakeGallery">
                 <a href="../pics/cakePics/EbbaCake.jpg" class="cakeLink" title="Rektangulär konfirmationstårta med blomdekoration">
-                    <img src="../pics/cakePics/EbbaCake.jpg" class="cakeImage" alt="Närbild på en rektangulär tårta med vit sockerpasta, rosa och gröna blomdekorationer samt texten Ebba Konfirmation 27 maj 2012"></a>
+                    <img src="../pics/cakePics/EbbaCake.jpg" class="cakeImage" alt="Rektangulär tårta med vit sockerpasta, rosa och gröna blomdekorationer"></a>
                 <a href="../pics/cakePics/studentCake.jpg" class="cakeLink" title="Tårta i form av en studentmössa">
-                    <img src="../pics/cakePics/studentCake.jpg" class="cakeImage" alt="Närbild på en tårta i form av en svart och vit studentmössa med blå, gula och vita blomdekorationer på samt texten student 2013"></a>
+                    <img src="../pics/cakePics/studentCake.jpg" class="cakeImage" alt="Tårta i form av en svart och vit studentmössa med blå, gula och vita blomdekorationer"></a>
                 <a href="../pics/cakePics/flowerCake.jpg" class="cakeLink" title="Rund tårta med blomdekorationer">
-                    <img src="../pics/cakePics/flowerCake.jpg" class="cakeImage" alt="Närbild på en rund tårta med vit sockerpasta samt rosa och svarta blomdekorationer"></a>
+                    <img src="../pics/cakePics/flowerCake.jpg" class="cakeImage" alt="Rund tårta med vit sockerpasta samt rosa och svarta blomdekorationer"></a>
                 <a href="../pics/cakePics/cakeFlowers.jpg" class="cakeLink" title="Rund konfirmationstårta med blomdekoration">
-                    <img src="../pics/cakePics/cakeFlowers.jpg" class="cakeImage" alt="Närbild på en rund tårta med vit sockerpasta, rosa och gröna blomdekorationer samt texten Ebba Konfirmation 27 maj 2012"></a>
+                    <img src="../pics/cakePics/cakeFlowers.jpg" class="cakeImage" alt="Rund tårta med vit sockerpasta, rosa och gröna blomdekorationer"></a>
                 <a href="../pics/cakePics/BarbieCake.jpg" class="cakeLink" title="Barbietårta">
-                    <img src="../pics/cakePics/BarbieCake.jpg" class="cakeImage" alt="Tårta i form av en vit klänning med blå dekorationer komplett med den övre halvan av en Barbiedocka"></a>
+                    <img src="../pics/cakePics/BarbieCake.jpg" class="cakeImage" alt="Tårta i form av en Barbie-docka i vit klänning med blå dekorationer"></a>
             </section>
             
             <h3 class="pageBreak">Beställning specialtårta</h3>
             <form method="post">
                 <fieldset>
                     <legend>Tårtbeskrivning</legend>
-                    <label>Beskrivning (hur vill ni att tårtan ska se ut?): <br />
-                        <textarea name="content" rows="4" cols="27"></textarea>
-                    </label><br />
-                    <label>Speciella önskemål (ev. allergier, färgval etc.): <br />
-                        <textarea name="content" rows="4" cols="27"></textarea>
-                    </label><br />
-                    <label>Önskat antal tårtbitar/tårta:
-                        <select name="cakeSize" size="1">
-                            <option value="NaN">Välj...</option>
-                            <option value="6">6</option>
-                            <option value="8">8</option>
-                            <option value="10">10</option>
-                            <option value="12">12</option>
-                            <option value="14">14</option>
-                            <option value="16">16</option>
-                            <option value="18">18</option>
-                            <option value="20">20</option>
-                            <option value="22">22</option>
-                            <option value="24">24</option>
-                        </select>
-                    </label><br />
-                    <label>Antal tårtor:
-                        <select name="noOfCakes" size="1">
-                            <option value="NaN">Välj...</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                    </label><br />
+                    <label for="cakeLook">Beskrivning (hur vill ni att tårtan ska se ut?): </label><br />
+                        <textarea name="cakeLook" rows="4" cols="27" id="cakeLook"></textarea>
+                    <br />
+                    <label for="specialRequests">Speciella önskemål (ev. allergier, färgval etc.): </label><br />
+                        <textarea name="specialRequests" rows="4" cols="27" id="specialRequests"></textarea>
+                    <br />
+                    <label for="cakeSize">Önskat antal tårtbitar/tårta:</label>
+                    <select name="cakeSize" size="1" id="cakeSize">
+                        <option value="NaN">Välj...</option>
+                        <option value="6">6</option>
+                        <option value="8">8</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                        <option value="14">14</option>
+                        <option value="16">16</option>
+                        <option value="18">18</option>
+                        <option value="20">20</option>
+                        <option value="22">22</option>
+                        <option value="24">24</option>
+                    </select><br />
+                    <label for="noOfCakes">Antal tårtor:</label>
+                    <select name="noOfCakes" size="1" id="noOfCakes">
+                        <option value="NaN">Välj...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br />
                     <label>Lägg till en bild: <input type="text" name="illustrationImage" /></label><input type="button" value="Bläddra" class="button" /><br />
                 </fieldset>
                 
@@ -146,8 +143,8 @@
                     </p>
                 </fieldset>
                 <div id="buttons">
-                    <input type="submit" value="Skicka" class="button" />
-                    <input type="reset" value="Rensa formulär" class="button" />
+                    <input type="submit" value="Skicka" id="send" class="button" /><label for="send">Skicka</label>
+                    <input type="reset" value="Rensa formulär" id="reset" class="button" /><label for="reset">Rensa formuläret</label>
                 </div>
             </form>
         </main>
